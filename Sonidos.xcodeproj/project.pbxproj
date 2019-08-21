@@ -14,6 +14,7 @@
 		3D2C5DD5230DEA4700AE2F19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D2C5DD3230DEA4700AE2F19 /* LaunchScreen.storyboard */; };
 		3D2C5DE0230DEA4700AE2F19 /* SonidosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2C5DDF230DEA4700AE2F19 /* SonidosTests.swift */; };
 		3D2C5DEB230DEA4700AE2F19 /* SonidosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2C5DEA230DEA4700AE2F19 /* SonidosUITests.swift */; };
+		3D2C5DF9230DEC5D00AE2F19 /* AUDIO 29.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3D2C5DF8230DEC5D00AE2F19 /* AUDIO 29.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3D2C5DE6230DEA4700AE2F19 /* SonidosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SonidosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D2C5DEA230DEA4700AE2F19 /* SonidosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonidosUITests.swift; sourceTree = "<group>"; };
 		3D2C5DEC230DEA4700AE2F19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D2C5DF8230DEC5D00AE2F19 /* AUDIO 29.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "AUDIO 29.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				3D2C5DCA230DEA4500AE2F19 /* AppDelegate.swift */,
+				3D2C5DF8230DEC5D00AE2F19 /* AUDIO 29.wav */,
 				3D2C5DCC230DEA4500AE2F19 /* ViewController.swift */,
 				3D2C5DCE230DEA4500AE2F19 /* Main.storyboard */,
 				3D2C5DD1230DEA4700AE2F19 /* Assets.xcassets */,
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D2C5DD5230DEA4700AE2F19 /* LaunchScreen.storyboard in Resources */,
+				3D2C5DF9230DEC5D00AE2F19 /* AUDIO 29.wav in Resources */,
 				3D2C5DD2230DEA4700AE2F19 /* Assets.xcassets in Resources */,
 				3D2C5DD0230DEA4500AE2F19 /* Main.storyboard in Resources */,
 			);

@@ -7,12 +7,29 @@
 //
 
 import UIKit
+import AVFoundation
+
 
 class ViewController: UIViewController {
+    
+    var player : AVAudioPlayer?
 
+    @IBAction func doTapReproducir(_ sender: Any) {
+        if player != nil{
+            player?.play()
+        }
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let path = Bundle.main.path(forResource: "Audio 29.wav", ofType: nil)
+        let url = URL(fileURLWithPath: path!)
+        
+        do {
+            player = try AVAudioPlayer(contentsOf: url)
+        } catch {
+            
+        }
+        
     }
 
     override func didReceiveMemoryWarning() {
