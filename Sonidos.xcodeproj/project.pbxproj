@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D2C18EF23107F7D00CC1CC9 /* Shoop (Casual Connection Rework).wav in Resources */ = {isa = PBXBuildFile; fileRef = 3D2C18EE23107F7D00CC1CC9 /* Shoop (Casual Connection Rework).wav */; };
+		3D2C18F12310891900CC1CC9 /* PantallaGrisController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2C18F02310891900CC1CC9 /* PantallaGrisController.swift */; };
 		3D2C5DCB230DEA4500AE2F19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2C5DCA230DEA4500AE2F19 /* AppDelegate.swift */; };
 		3D2C5DCD230DEA4500AE2F19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2C5DCC230DEA4500AE2F19 /* ViewController.swift */; };
 		3D2C5DD0230DEA4500AE2F19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D2C5DCE230DEA4500AE2F19 /* Main.storyboard */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D2C18EE23107F7D00CC1CC9 /* Shoop (Casual Connection Rework).wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Shoop (Casual Connection Rework).wav"; sourceTree = "<group>"; };
+		3D2C18F02310891900CC1CC9 /* PantallaGrisController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantallaGrisController.swift; sourceTree = "<group>"; };
 		3D2C5DC7230DEA4500AE2F19 /* Sonidos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sonidos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D2C5DCA230DEA4500AE2F19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D2C5DCC230DEA4500AE2F19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +83,7 @@
 		3D2C5DBE230DEA4500AE2F19 = {
 			isa = PBXGroup;
 			children = (
+				3D2C18F02310891900CC1CC9 /* PantallaGrisController.swift */,
 				3D2C5DC9230DEA4500AE2F19 /* Sonidos */,
 				3D2C5DDE230DEA4700AE2F19 /* SonidosTests */,
 				3D2C5DE9230DEA4700AE2F19 /* SonidosUITests */,
@@ -101,6 +106,7 @@
 			children = (
 				3D2C5DCA230DEA4500AE2F19 /* AppDelegate.swift */,
 				3D2C5DF8230DEC5D00AE2F19 /* AUDIO 29.wav */,
+				3D2C18EE23107F7D00CC1CC9 /* Shoop (Casual Connection Rework).wav */,
 				3D2C5DCC230DEA4500AE2F19 /* ViewController.swift */,
 				3D2C5DCE230DEA4500AE2F19 /* Main.storyboard */,
 				3D2C5DD1230DEA4700AE2F19 /* Assets.xcassets */,
@@ -236,6 +242,7 @@
 				3D2C5DF9230DEC5D00AE2F19 /* AUDIO 29.wav in Resources */,
 				3D2C5DD2230DEA4700AE2F19 /* Assets.xcassets in Resources */,
 				3D2C5DD0230DEA4500AE2F19 /* Main.storyboard in Resources */,
+				3D2C18EF23107F7D00CC1CC9 /* Shoop (Casual Connection Rework).wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D2C18F12310891900CC1CC9 /* PantallaGrisController.swift in Sources */,
 				3D2C5DCD230DEA4500AE2F19 /* ViewController.swift in Sources */,
 				3D2C5DCB230DEA4500AE2F19 /* AppDelegate.swift in Sources */,
 			);
